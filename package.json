@@ -1,0 +1,30 @@
+{
+  "name": "axe-data-serialization",
+  "version": "0.0.3",
+  "description": "serialize or deserialize the data from axe system.",
+  "main": "lib/main.js",
+  "types": "src/main.d.ts",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/axe-org/axe-data-serialization.git"
+  },
+  "keywords": [
+    "axe"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "author": "lxm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axe-org/axe-data-serialization/issues"
+  },
+  "homepage": "https://github.com/axe-org/axe-data-serialization#README"
+}
